@@ -319,6 +319,7 @@ Transform:
   m_GameObject: {fileID: 757881556}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.19261064, y: 0.07498659, z: -0.01476303, w: 0.97829455}
   m_LocalPosition: {x: -111.74361, y: 229.71753, z: -134.53291}
 =======
@@ -329,6 +330,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
 >>>>>>> parent of 9968acd... Ship Movement implemented
+=======
+  m_LocalRotation: {x: 0.17791945, y: 0.2833261, z: -0.05357766, w: 0.9408509}
+  m_LocalPosition: {x: -163, y: 183.3, z: 36.1}
+>>>>>>> parent of 6ad3904... May Revert
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -774,14 +779,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22589fa681fae4709a6f20106b0ad222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 100
-  ySpeed: 100
-  xClampRange: 40
+  xSpeed: 175
+  ySpeed: 175
+  xClampRange: 50
   yClampRange: 35
-  positionPitchFactor: -0.4
-  controlPitchFactor: -9
-  positionYawFactor: 0.4
-  controlRollFactor: -15
 --- !u!4 &4298154975279675952
 Transform:
   m_ObjectHideFlags: 0
@@ -789,13 +790,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4298154975279440794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2, y: -11.7, z: 127.4}
+  m_LocalRotation: {x: -0.000000014901161, y: -0.20661381, z: -0.0000000018626451,
+    w: 0.9784226}
+  m_LocalPosition: {x: 1.1961784, y: -11.69997, z: 144.34674}
   m_LocalScale: {x: -16.977642, y: -16.977642, z: -16.977642}
   m_Children: []
   m_Father: {fileID: 757881559}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -23.848001, z: 0}
 --- !u!33 &4298154975280375490
 MeshFilter:
   m_ObjectHideFlags: 0
