@@ -318,8 +318,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757881556}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.19261064, y: 0.07498659, z: -0.01476303, w: 0.97829455}
   m_LocalPosition: {x: -111.74361, y: 229.71753, z: -134.53291}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> parent of 9968acd... Ship Movement implemented
 =======
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
@@ -740,6 +745,7 @@ Transform:
 PrefabInstance:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -836,6 +842,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 =======
+=======
+>>>>>>> parent of 9968acd... Ship Movement implemented
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -902,4 +910,7 @@ MeshRenderer:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41eb98b82482543f3ada775b42307a1f, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 9968acd... Ship Movement implemented
+=======
 >>>>>>> parent of 9968acd... Ship Movement implemented
