@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] float controlRollFactor = -15f;
 
-    float xThrow, yThrow;
+    float xThrow, yThrow;  
     // Start is called before the first frame update
     void Start()
     {
@@ -43,20 +43,20 @@ public class Player : MonoBehaviour
 
         float roll = controlRollFactor * xThrow;
 
-        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);  //used for rotation
     }
 
     private void handleHorizontalInput()
     {
-        xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
+        xThrow = CrossPlatformInputManager.GetAxis("Horizontal");  //horzontal position of joystick or if key pressed
         float xOffset = xThrow * xSpeed * Time.deltaTime;
         float rawNewXPos = transform.localPosition.x + xOffset;
-        float clampedXpos = Mathf.Clamp(rawNewXPos, -xClampRange, xClampRange);
+        float clampedXpos = Mathf.Clamp(rawNewXPos, -xClampRange, xClampRange);  //limit horizontal movement
         transform.localPosition = new Vector3(clampedXpos, transform.localPosition.y, transform.localPosition.z);
     }
     private void handleVerticalInput()
     {
-        yThrow = CrossPlatformInputManager.GetAxis("Vertical");
+        yThrow = CrossPlatformInputManager.GetAxis("Vertical"); //verticle position of joystick or if key pressed
         float yOffset = yThrow * ySpeed * Time.deltaTime;
         float rawNewYPos = transform.localPosition.y + yOffset;
         float clampedYpos = Mathf.Clamp(rawNewYPos, -yClampRange, yClampRange);
