@@ -32,6 +32,16 @@ public class Player : MonoBehaviour
         ProcessRotation();
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        print("player collided something");
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        print("player triggered something");
+    }
+
     private void ProcessRotation()
     {
         float pitchFromPosition = transform.localPosition.y * positionPitchFactor;
