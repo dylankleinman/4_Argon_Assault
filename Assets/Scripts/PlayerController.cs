@@ -4,20 +4,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput; //allow cross platform input controls
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    [Header("General")]
     [Tooltip("In meters/second")] [SerializeField] float xSpeed = 100f;
     [Tooltip("In meters/second")] [SerializeField] float ySpeed = 100f;
     [SerializeField] float xClampRange = 40f;
     [SerializeField] float yClampRange = 35f;
-    [SerializeField] float positionPitchFactor = -0.4f;
-    [SerializeField] float controlPitchFactor = -9f;
 
+    [Header("Screen-Position Based")]
+    [SerializeField] float positionPitchFactor = -0.4f;
     [SerializeField] float positionYawFactor = -0.4f;
 
+    [Header("Control-throw Based")]
+    [SerializeField] float controlPitchFactor = -9f;
     [SerializeField] float controlRollFactor = -15f;
 
-    float xThrow, yThrow;  
+    float xThrow, yThrow;
+    bool isControllEnabled = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,19 +31,17 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        handleHorizontalInput();
-        handleVerticalInput();
-        ProcessRotation();
+        if (isControllEnabled)
+        {
+            handleHorizontalInput();
+            handleVerticalInput();
+            ProcessRotation();
+        }
     }
 
-    void OnCollisionEnter(Collision collision)
+    private void OnPlayerDeath() //called by string at CollisionHandler.cs
     {
-        print("player collided something");
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        print("player triggered something");
+        isControllEnabled = false;
     }
 
     private void ProcessRotation()

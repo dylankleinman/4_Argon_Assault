@@ -44,7 +44,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7c596fb251eed4bcb9a289fc2f1f3f3a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -140,4 +140,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e373de7000c24949a98837c792d98dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  themeMusic: {fileID: 0}
