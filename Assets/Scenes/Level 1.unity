@@ -140,6 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1 &53799708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1875551938172112, guid: bb7599871142bcd41bace4e2b151829a,
@@ -160,6 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1001 &59115386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -326,6 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 100
 --- !u!1 &227145119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1875551938172112, guid: bb7599871142bcd41bace4e2b151829a,
@@ -346,6 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1 &264967841
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1001 &445653231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1186,6 +1191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1 &1055515665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1001 &1144773169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1869,6 +1876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1001 &1507144282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2515,6 +2523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!4 &1780201156 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4192681528727280, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
@@ -2541,6 +2550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!4 &1784742529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -2846,6 +2856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1 &1973494963 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1875551938172112, guid: bb7599871142bcd41bace4e2b151829a,
@@ -2866,6 +2877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1 &2016952710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,6 +2962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1001 &2069835711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3111,7 +3124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5931e3537a374eefbbd96e4bd70e126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHit: 12
 --- !u!1 &2077837404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -3132,6 +3144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!1 &2083877111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -3152,6 +3165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 4774414386048318834, guid: ba480dcc4dd3843c1859388f173e22a4, type: 3}
   parent: {fileID: 1746474010}
+  scorePerHit: 12
 --- !u!4 &2130823969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4192681528727280, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
@@ -3466,7 +3480,7 @@ PrefabInstance:
     - target: {fileID: 5510586444196643095, guid: 299ccfc72e14845e9aea7e6786915682,
         type: 3}
       propertyPath: TrailModule.widthOverTrail.scalar
-      value: 0.66
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 5510586444196643095, guid: 299ccfc72e14845e9aea7e6786915682,
         type: 3}
@@ -3496,7 +3510,7 @@ PrefabInstance:
     - target: {fileID: 5510586444867342232, guid: 299ccfc72e14845e9aea7e6786915682,
         type: 3}
       propertyPath: TrailModule.widthOverTrail.scalar
-      value: 0.66
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 5510586444867342232, guid: 299ccfc72e14845e9aea7e6786915682,
         type: 3}
