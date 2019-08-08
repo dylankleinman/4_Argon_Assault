@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -9f;
     [SerializeField] float controlRollFactor = -15f;
 
+    [SerializeField] GameObject[] Guns;
+
     float xThrow, yThrow;
     bool isControllEnabled = true;
     // Start is called before the first frame update
@@ -36,6 +38,25 @@ public class PlayerController : MonoBehaviour
             handleHorizontalInput();
             handleVerticalInput();
             ProcessRotation();
+            ProcessFiring();
+        }
+    }
+
+    private void ProcessFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            foreach(GameObject element in Guns)
+            {
+                element.SetActive(true);
+            }
+        }
+        else
+        {
+            foreach (GameObject element in Guns)
+            {
+                element.SetActive(false);
+            }
         }
     }
 
